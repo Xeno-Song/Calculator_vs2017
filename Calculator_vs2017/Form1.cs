@@ -110,6 +110,9 @@ namespace Calculator_vs2017
 			SetNumToBuffer();
 			result = calc.GetCalculationResult();
 
+			num_buffer = (int)result;
+			calc.SetFirstNum(num_buffer);
+
 			SetTextOutput(result);
 		}
 
