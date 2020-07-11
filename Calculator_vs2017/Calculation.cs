@@ -20,6 +20,8 @@ namespace Calculator_vs2017
 		public double num1 { get; protected set; }
 		public double num2 { get; protected set; }
 		public Operator calc_operator { get; protected set; }
+		public double[] num_list;
+		public Operator[] operator_list;
 
 		public Calculation()
 		{
